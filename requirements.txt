@@ -1,10 +1,6 @@
-https://codeload.github.com/KurimuzonAkuma/pyrogram/zip/refs/heads/dev
-pyrofork==2.3.38
+pyrogram
 TgCrypto
 pyromod
-humanize
-schedule
-APscheduler
 # --- For-Database ------------ #
 pymongo
 motor
