@@ -1,6 +1,7 @@
 pyrogram
 TgCrypto
 pyromod
+humanize
 # --- For-Database ------------ #
 pymongo
 motor
