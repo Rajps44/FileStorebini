@@ -10,17 +10,17 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8081904480:AAGeg4P4A1NheuGI1Vuh6bmOrZglNNV7cuc")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7525628633:AAG8m9OFlYxbEYSb240BL378TQ8ZfEH-SZc")
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "29414758"))
 #Your API Hash from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "8cd9e6113ed53dd8767cb760d4535bd1")
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002441075070"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002347690748"))
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "CoderRzps")
+OWNER = os.environ.get("OWNER", "Bini2044")
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6174868004"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1895317867"))
 #Port
 PORT = os.environ.get("PORT", "8030")
 #Database
@@ -32,10 +32,10 @@ TIME = int(os.environ.get("TIME", "10"))
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "0"))
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1002307269534"))
 #put 0 to disable
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))#put 0 to disable
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))#put 0 to disable
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002006592325"))#put 0 to disable
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002296621746"))#put 0 to disable
 FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))#put 0 to disable
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
@@ -83,7 +83,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1798290309)
+ADMINS.append(1895317867)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
